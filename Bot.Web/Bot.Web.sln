@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Web", "Bot.Web\Bot.Web.csproj", "{3F9DF7C1-1315-4890-93B7-FE6B4C8D67E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dlls", "dlls", "{04D64151-DD92-422A-BCF8-EC7FA7E2CB29}"
+	ProjectSection(SolutionItems) = preProject
+		dlls\Bots.ApiLayer.dll = dlls\Bots.ApiLayer.dll
+		dlls\Bots.Common.dll = dlls\Bots.Common.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.App", "Bot.App\Bot.App.csproj", "{A46669D1-DA05-4CA1-8403-DE7936AC7A44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F9DF7C1-1315-4890-93B7-FE6B4C8D67E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9DF7C1-1315-4890-93B7-FE6B4C8D67E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9DF7C1-1315-4890-93B7-FE6B4C8D67E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9DF7C1-1315-4890-93B7-FE6B4C8D67E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46669D1-DA05-4CA1-8403-DE7936AC7A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46669D1-DA05-4CA1-8403-DE7936AC7A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46669D1-DA05-4CA1-8403-DE7936AC7A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46669D1-DA05-4CA1-8403-DE7936AC7A44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {647130DB-9191-4D92-A0EB-DAEC3380C5CC}
+	EndGlobalSection
+EndGlobal
